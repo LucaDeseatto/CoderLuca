@@ -1,0 +1,44 @@
+.body__form {
+    background-color: $Pintura2;
+}
+
+.titulo__contact{
+    margin: 20px;
+    font-size: 40px;
+    font-weight: 800;
+    color: $Pintura1;
+    text-align: center;
+}
+
+.form {
+    background-color: $Pintura2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba($Pintura1, 0.1);
+}
+
+.label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.input, .textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.input [type="submit"] {
+    background-color: $Pintura1;
+    color: $Pintura2;
+    cursor: pointer;
+}
+
+.input[type="submit"]:hover {
+    background-color: #3db143;
+}
+

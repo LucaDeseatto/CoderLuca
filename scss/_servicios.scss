@@ -1,0 +1,47 @@
+.titulo__servicios{
+    margin: 20px;
+    font-size: 40px;
+    font-weight: 800;
+    color: $Pintura2;
+    text-align: center;
+}
+
+.card{
+    width: 288px;
+    background-color: rgb(194, 192, 192);
+    padding: 16px;
+    margin: 25px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 20px 12px 12px rgba($Pintura1, 0.603);
+    
+}
+
+.card__img{
+    width: 100%;
+}
+
+.card__h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card__p{
+    font-size: 16px;
+}
+
+.card__btn{
+    background-color: $Pintura3;
+    border: 0;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 10px;
+    border: solid $Pintura1 1.5px;
+    cursor: pointer;
+}
+
+.card__img,
+.card__h4,
+.card__p{
+    margin-bottom: 10px;
+}

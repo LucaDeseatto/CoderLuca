@@ -1,0 +1,45 @@
+.main-nosotros{
+    @include flex($jc:none);
+    flex-direction: column;
+}
+
+.contenedor-texto{
+    background-color:$Pintura2;
+    width: 500px;
+    height: 500px;
+}
+
+.contenedor-texto h2{
+    font-weight: 500;
+}
+
+.contenedor-h2-p{
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+.contenedor-h2-p h2{
+    font-size: 40px;
+}
+
+.contenedor-h2-p p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.contenedor-h2-p-2 h2{
+    font-size: 40px;
+}
+
+.contenedor-h2-p-2 p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.titulo__nosotros{
+    margin: 20px;
+    font-size: 40px;
+    font-weight: 800;
+    color: $Pintura1;
+    text-align: center;
+}

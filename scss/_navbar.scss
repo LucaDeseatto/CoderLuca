@@ -1,0 +1,50 @@
+.nav{
+    
+    background-color: $Pintura1;
+    
+    & .navbar-brand{
+        font-weight: 600;
+        font-size: 30px;
+        margin-left: 80px;
+        text-transform: capitalize;
+    }
+    & a{
+        color: $Pintura2;
+        &:hover{
+            color: $Pintura3;
+        }
+    }
+    & .nav-inicio{
+        max-width: 530px;
+        & ul{
+            & li{
+                & a{
+                    font-weight: 500;
+                    font-size: 1rem;
+                    margin-right: 10px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
+.color1{
+    color: $Pintura3 !important;
+}
+.color2{
+    color: $Pintura3 !important;
+}
+.color3{
+    color: $Pintura3 !important;
+}
+.color4{
+    color: $Pintura3 !important;
+}
+.color5{
+    color: $Pintura3 !important;
+}
+
+.navbar-toggler-icon {
+    color: $Pintura2;
+}

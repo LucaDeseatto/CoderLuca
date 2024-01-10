@@ -1,0 +1,34 @@
+@use "sass:map";
+
+.footer{
+    width: 100%;
+    margin-top: auto;
+    background-color: $Pintura3;
+    height: 140px;
+    @include flex;
+
+    & .contenedor-footer{
+        width: 850px;
+        @include flex($jc:space-around, $ai:none);
+        margin-left: 40px;
+
+        & div {
+            @include flex;
+        }
+        & svg{
+            width: 30px;
+            height: 30px;
+            @include flex($jc:none);
+        }
+            & a  {
+                color: $Pintura1;
+                text-decoration: none;
+                margin: 20px 10px;
+                font-size: 20px;
+                @media (width<map.get($Responsivo,"xs")){
+                    font-size: 14px;
+                }
+            }
+        } 
+    }
+
