@@ -12,9 +12,6 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100dvh;
-    /* display: grid;
-    min-height: 100vh;
-    grid-template-rows: auto 1fr auto; */
 }
 
 .main-nosotros{
