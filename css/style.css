@@ -13,7 +13,7 @@ body {
   min-height: 100dvh;
 }
 body .main__servicios {
-  background-color: #886f47;
+  background-color: white;
 }
 
 .section-home {
@@ -218,7 +218,7 @@ body .main__servicios {
   margin: 20px;
   font-size: 40px;
   font-weight: 800;
-  color: white;
+  color: #000000;
   text-align: center;
 }
 
