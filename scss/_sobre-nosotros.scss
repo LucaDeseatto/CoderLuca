@@ -1,3 +1,5 @@
+@use "sass:map";
+
 .main-nosotros{
     @include flex($jc:none);
     flex-direction: column;
@@ -5,40 +7,27 @@
 
 .contenedor-texto{
     background-color:$Pintura2;
-    width: 500px;
-    height: 500px;
-}
+    width: 70%;
+    text-align: center;
+    margin-top: 35px;
+    & h2{
+        font-size: 30px;
+    }
+    & p{
+        font-size: 18px;
+    }
+    & .contenedor-h2-p{
+        margin-bottom: 50px;
+    }
+    // & .contenedor-h2-p, .contenedor-h2-p-2{
+    //     width: ;
+    // }
+}   
 
-.contenedor-texto h2{
-    font-weight: 500;
-}
-
-.contenedor-h2-p{
-    margin-bottom: 100px;
-    margin-top: 40px;
-}
-
-.contenedor-h2-p h2{
-    font-size: 40px;
-}
-
-.contenedor-h2-p p{
-    font-size: 18px;
-    margin-top: 10px;
-}
-
-.contenedor-h2-p-2 h2{
-    font-size: 40px;
-}
-
-.contenedor-h2-p-2 p{
-    font-size: 18px;
-    margin-top: 10px;
-}
 
 .titulo__nosotros{
     margin: 20px;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 800;
     color: $Pintura1;
     text-align: center;
